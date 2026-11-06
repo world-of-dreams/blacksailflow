@@ -1,0 +1,15 @@
+- insert:
+    - id: blacksailflow
+      name: '@local/blacksailflow'
+      config:
+        goals:
+          enabled: true
+        tasks:
+          enabled: true
+        publicInfo:
+          enabled: true
+        roles:
+          enabled: true
+          identity: true
+          turnCheck: true
+          guard: true

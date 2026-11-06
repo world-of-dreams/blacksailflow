@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="blacksailflow">
+  <rect width="64" height="64" rx="12" fill="#0b1220"/>
+  <path d="M12 42h40l-6 10H18z" fill="#1f6feb"/>
+  <path d="M32 10v28" stroke="#e6edf3" stroke-width="3"/>
+  <path d="M32 12l16 8-16 6z" fill="#e6edf3"/>
+  <path d="M32 26l-12 6 12 5z" fill="#9fb3c8"/>
+</svg>

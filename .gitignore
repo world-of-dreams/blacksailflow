@@ -1,0 +1,47 @@
+# ===== 不进仓库：文档与内部材料（用户口径：文档一律不上传）=====
+/docs/
+/evidence/
+/CLAUDE.md
+/DEV-ONLY.md
+/修改意见*.md
+/新版myworkflow*.md
+/skills-drafts/
+/release/AUDIT-external-deps.md
+/release/RELEASE-MANIFEST.md
+/release/sanitize.mjs
+/release/verify-audit.mjs
+/release/verify-packaging.mjs
+/release/verify-cleanup.mjs
+/release/cleanup-manifest-*.json
+
+# ===== 不进仓库：hooks 内部规格与归档 =====
+/hooks/HOOKS.md
+/hooks/06-*
+/hooks/07-*
+/hooks/08-*
+/hooks/11-*
+/hooks/14-*
+/hooks/_archive/
+
+# ===== 不进仓库：开发过程件 =====
+*.bak-*
+*.bak
+role-probe.jsonl
+/runtime-plugin/evidence.mjs
+/runtime-plugin/verify-*.mjs
+/preset-probe/build-patch.mjs
+/preset-probe/check-shadow.mjs
+
+# ===== 构建产物与运行时数据 =====
+release/out/
+**/node_modules/
+.runtime/
+sessions/
+.sanitize-map.json
+
+# ===== 系统 / 编辑器杂项 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,30 @@
+{
+  "name": "@local/blacksailflow",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "blacksailflow runtime: role hooks (captain/mate/hand), self-owned goals and the manifest task board.",
+  "exports": {
+    ".": "./index.js",
+    "./paths": "./paths.mjs",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "roles.mjs",
+    "hook-forms.mjs",
+    "fold-titles.mjs",
+    "goal-rearm.mjs",
+    "paths.mjs",
+    "cordis.patch.yml",
+    "hooks/*.mjs",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
